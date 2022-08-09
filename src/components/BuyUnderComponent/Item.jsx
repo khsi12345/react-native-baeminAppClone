@@ -20,12 +20,12 @@ const style = StyleSheet.create({
     alignItems: 'center',
     width: '30%',
     height: 60,
-    backgroundColor: 'green',
+    borderWidth: 1,
+    backgroundColor: 'white',
   },
   contentBox: {
     display: 'flex',
     alignItems: 'center',
-    // backgroundColor: 'pink',
   },
 });
 

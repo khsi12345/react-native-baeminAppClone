@@ -20,8 +20,9 @@ const style = StyleSheet.create({
     padding: 16,
     width: '47%',
     height: 176,
-    backgroundColor: 'yellow',
+    borderWidth: 1,
     borderRadius: 12,
+    backgroundColor: 'white',
   },
   button: {},
   textBox: {

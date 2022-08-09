@@ -34,7 +34,6 @@ const style = StyleSheet.create({
     marginBottom: 14,
     // paddingLeft: 16,
     justifyContent: 'space-around',
-    backgroundColor: 'red',
   },
 });
 

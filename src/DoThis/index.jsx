@@ -32,10 +32,19 @@ function DoThis() {
   return (
     <SectionContainer title="이런 일도 한답니다" viewText="전체보기">
       {
-        <View style={tw`flex flex-row mr-1`}>
+        <View style={[tw`flex flex-row`]}>
           {items.map(item => {
             return (
-              <View>
+              <View
+                style={[
+                  tw``,
+                  {
+                    width: '45%',
+                    marginRight: 14,
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                  },
+                ]}>
                 {item.map(it => {
                   return <Item url={it.url} des={it.des} />;
                 })}
